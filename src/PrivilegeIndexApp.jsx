@@ -84,7 +84,7 @@ export default function PrivilegeIndexApp() {
   Tu puntaje de privilegio: {score} / 9
   <p style={{ fontWeight: "normal", fontSize: "0.9rem" }}>
     Este número refleja qué tantas ventajas o barreras podrías haber tenido en tu camino. <br /><br />
-    Si tu puntaje es alto, no es algo de lo que te debas sentir culpable. Significa que probablemente has tenido acceso a ciertas cosas que otras personas aún están peleando por alcanzar. <br /><br />
+    Si tu puntaje es alto, no es algo de lo que te debas sentir culpable. Significa que probablemente has tenido acceso a oportunidades, espacios seguros o apoyos que otras personas aún están luchando por alcanzar. <br /><br />
     Si tu puntaje es bajo, no define tu valor. Dice más sobre el sistema en el que has tenido que moverte que sobre tus capacidades. <br /><br />
     Este índice no es una etiqueta. Es una invitación a mirar tu historia con más conciencia y, ojalá, con más compasión hacia ti y hacia las demás personas.
   </p>
