@@ -37,7 +37,7 @@ export default function PrivilegeIndexApp() {
 
   return (
     <div style={{ padding: "2rem", maxWidth: "600px", margin: "0 auto" }}>
-      <h1>Índice de Privilegio en Colombia</h1>
+      <h1>¿Desde dónde partes en la vida?</h1>
     <p>
   Responde estas preguntas para reflexionar sobre tu punto de partida en la vida.<br /><br />
   Esta herramienta te ayuda a conocerte mejor. En unos segundos podrás ver con más claridad qué ventajas has tenido y qué obstáculos podrías estar enfrentando. A veces no notamos todo lo que influye en nuestras oportunidades: el lugar donde nacimos, nuestro cuerpo, el acceso a estudios o el idioma que hablamos.
