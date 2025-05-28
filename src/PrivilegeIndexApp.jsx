@@ -40,7 +40,7 @@ export default function PrivilegeIndexApp() {
       <h1>Índice de Privilegio en Colombia</h1>
     <p>
   Responde estas preguntas para reflexionar sobre tu punto de partida en la vida.<br /><br />
-  Esta herramienta te ayuda a conocerte mejor. Te ayuda a ver con más claridad qué ventajas has tenido a lo largo de tu vida y qué obstáculos podrías estar enfrentando. A veces no notamos todo lo que influye en nuestras oportunidades: el lugar donde nacimos, nuestro cuerpo, el acceso a estudios o el idioma que hablamos.
+  Esta herramienta te ayuda a conocerte mejor. En unos segundos podrás ver con más claridad qué ventajas has tenido y qué obstáculos podrías estar enfrentando. A veces no notamos todo lo que influye en nuestras oportunidades: el lugar donde nacimos, nuestro cuerpo, el acceso a estudios o el idioma que hablamos.
   <br /><br />
   <strong>No hay respuestas correctas, solo honestidad contigo mismx.</strong>
     </p> 
