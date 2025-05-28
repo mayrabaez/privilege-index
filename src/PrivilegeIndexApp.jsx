@@ -38,7 +38,12 @@ export default function PrivilegeIndexApp() {
   return (
     <div style={{ padding: "2rem", maxWidth: "600px", margin: "0 auto" }}>
       <h1>Índice de Privilegio en Colombia</h1>
-      <p>Responde las preguntas para conocer tu posición frente a las estructuras de acceso en el país.</p>
+    <p>
+  Responde estas preguntas para reflexionar sobre tu punto de partida en la vida.<br /><br />
+  Este índice es una herramienta para conocerte mejor. Te ayuda a ver con más claridad qué ventajas has tenido y qué obstáculos podrías estar enfrentando. A veces no notamos todo lo que influye en nuestras oportunidades: el lugar donde nacimos, nuestro cuerpo, el acceso a estudios o el idioma que hablamos.
+  <br /><br />
+  <strong>No hay respuestas correctas, solo honestidad contigo mismx.</strong>
+    </p> 
       {questions.map((q) => (
         <div key={q.id} style={{ marginBottom: "1rem" }}>
           <label>{q.label}</label>
