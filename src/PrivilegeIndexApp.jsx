@@ -37,7 +37,7 @@ export default function PrivilegeIndexApp() {
 
   return (
     <div style={{ padding: "2rem", maxWidth: "600px", margin: "0 auto" }}>
-      <h1>¿Desde dónde partes en la vida?</h1>
+      <h1>Explora tu punto de partida: Una herramienta para entender cómo las circunstancias influyen en nuestras oportunidades.</h1>
     <p>
   Responde estas preguntas para reflexionar sobre tu punto de partida en la vida.<br /><br />
   Esta herramienta te ayuda a conocerte mejor. En unos segundos podrás ver con más claridad qué ventajas has tenido y qué obstáculos podrías estar enfrentando. A veces no notamos todo lo que influye en nuestras oportunidades: el lugar donde nacimos, nuestro cuerpo, el acceso a estudios o el idioma que hablamos.
@@ -76,17 +76,13 @@ export default function PrivilegeIndexApp() {
   No
 </button>
 
-        </div>
-      ))}
-      <button onClick={calculateScore} style={{ marginTop: "1rem" }}>Calcular mi puntaje</button>
-      {score !== null && (
         <div style={{ marginTop: "2rem", fontWeight: "bold" }}>
   Tu puntaje de privilegio: {score} / 9
   <p style={{ fontWeight: "normal", fontSize: "0.9rem" }}>
-    Este número refleja qué tantas ventajas o barreras podrías haber tenido en tu camino. <br /><br />
-    Si tu puntaje es alto, no es algo de lo que te debas sentir culpable. Significa que probablemente has tenido acceso a oportunidades, espacios seguros o apoyos que otras personas aún están luchando por alcanzar. <br /><br />
-    Si tu puntaje es bajo, no define tu valor. Dice más sobre el sistema en el que has tenido que moverte que sobre tus capacidades. <br /><br />
-    Este índice no es una etiqueta. Es una invitación a mirar tu historia con más conciencia y, ojalá, con más compasión hacia ti y hacia las demás personas.
+    Este número es solo un punto de partida. No define quién eres ni lo que vales. <br /><br />
+    Si tu puntaje es alto, piensa en cómo podrías usar lo que tienes para hacer que otras personas también accedan a lo que debería ser un derecho: educación, salud, seguridad, respeto, identidad. <br /><br />
+    Si tu puntaje es bajo, no estás solx. Muchas personas viven barreras impuestas por el sistema, no por falta de esfuerzo. <br /><br />
+    Todos tenemos historias distintas. ¿Qué parte de la tuya aún no habías visto como parte de este mapa? ¿Qué te gustaría transformar en tu entorno? ¿A quién podrías escuchar hoy con más empatía?
   </p>
         </div>
 
