@@ -43,10 +43,34 @@ export default function PrivilegeIndexApp() {
         <div key={q.id} style={{ marginBottom: "1rem" }}>
           <label>{q.label}</label>
           <br />
-          <button onClick={() => handleAnswer(q.id, true)} style={{ marginRight: "1rem" }}>
-            Sí
-          </button>
-          <button onClick={() => handleAnswer(q.id, false)}>No</button>
+         <button
+  onClick={() => handleAnswer(q.id, true)}
+  style={{
+    marginRight: "1rem",
+    backgroundColor: answers[q.id] === true ? "#4CAF50" : "#f0f0f0",
+    color: answers[q.id] === true ? "#fff" : "#000",
+    padding: "0.5rem 1rem",
+    border: "1px solid #ccc",
+    borderRadius: "5px",
+    cursor: "pointer"
+  }}
+>
+  Sí
+</button>
+<button
+  onClick={() => handleAnswer(q.id, false)}
+  style={{
+    backgroundColor: answers[q.id] === false ? "#f44336" : "#f0f0f0",
+    color: answers[q.id] === false ? "#fff" : "#000",
+    padding: "0.5rem 1rem",
+    border: "1px solid #ccc",
+    borderRadius: "5px",
+    cursor: "pointer"
+  }}
+>
+  No
+</button>
+
         </div>
       ))}
       <button onClick={calculateScore} style={{ marginTop: "1rem" }}>Calcular mi puntaje</button>
