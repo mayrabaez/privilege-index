@@ -1,54 +1,49 @@
-# 🟣 Privilege Index — Colombia
+# Privilege Index Colombia 🧭
 
-An interactive tool to reflect on your starting point in life.
+A simple, reflective web app that helps users explore how structural privilege may shape their life experiences in Colombia.
 
----
+By answering 14 yes/no questions — related to geography, race, gender identity, income, education, and more — users receive a score ranging from -6 (more structural barriers) to +9 (more systemic advantage).
 
-## 🧭 What is this?
-
-The Privilege Index invites you to reflect on how certain factors, such as your birthplace, family income, education, race, gender identity, or access to networks, may have influenced your access to opportunities in Colombia.
-
-By answering **14 yes/no questions**, you'll get a score between **-6** (facing more structural barriers) and **+9** (having more access and systemic advantage).
+This tool is not about guilt or blame. It's about awareness, perspective, and empathy.
 
 ---
 
-## 💡 What's it for?
+## 🌟 Why this exists
 
-This isn't about guilt or judgment. It's a mirror, designed to help you better understand your story and, hopefully, cultivate compassion for yourself and others.
+I created this project to spark curiosity and reflection, especially among young Colombians (Millennials & Gen Z). Many of us want to build a more just world, but we don’t always have the tools or language to start that journey.
 
-Use it in:
-- 🧠 Workshops or classrooms  
-- 💬 Conversations about justice and equity  
-- 🪞 Personal reflection  
+This app is meant to be:
+- 🪞 A mirror: to see what advantages or obstacles we may have had.
+- 🧠 A nudge: to question what we’ve normalized.
+- 💬 A conversation starter: for classrooms, community groups, or friends.
 
 ---
 
-## 🖥️ Try it live
+## 🧑‍💻 Tech Stack
+
+- Built with **React + Vite**
+- Deployed on **Vercel**
+- Styled with **custom CSS**, responsive and mobile-friendly
+- No backend, no data collected
+
+---
+
+## 🧪 Try it live
 
 👉 [https://privilege-index.vercel.app](https://privilege-index.vercel.app)
 
 ---
 
-## 🛠️ Tech stack
+## 🤔 Want to use or adapt this?
 
-- React + Vite  
-- Custom CSS  
-- Deployed on [Vercel](https://vercel.com)
+Feel free to fork or remix this code! I’d love to see other versions emerge in different countries, with adapted questions.
 
----
-
-## ✨ Features
-
-- Clean, modern typography and layout  
-- Responsive design for mobile users  
-- Buttons change color when selected (green for Yes, red for No)  
-- Animated results section with reflection prompt  
-- Expandable “Now what?” section for deeper exploration  
+If you do, please link back here or credit the original idea so we can stay connected.
 
 ---
 
-## 🙌 Credits
+## 📬 Feedback welcome!
 
-Built by [Mayra Báez](https://www.linkedin.com/in/mayrabaez/) with ❤️, curiosity, and meaningful conversations with friends and colleagues.
+If something resonated with you — or if you want to suggest improvements — reach out via issues or fork it and play!
 
-Inspired by a desire to explore inequality with kindness and clarity.
+Together we can build tools that spark empathy and collective change. 💜
