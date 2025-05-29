@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Analytics } from '@vercel/analytics/react';
 
 const questions = [
   { id: "location", label: "¿Vives en una ciudad principal (por ejemplo, Bogotá, Medellín)?", weight: 1 },
@@ -94,6 +95,7 @@ export default function PrivilegeIndexApp() {
           )}
         </div>
       )}
+      <Analytics />
     </div>
   );
 }
