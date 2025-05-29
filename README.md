@@ -14,7 +14,7 @@ By answering **14 yes/no questions**, you'll get a score between **-6** (facing 
 
 ## 💡 What's it for?
 
-This isn't about guilt or judgment. It's a mirror — designed to help you better understand your story and, hopefully, cultivate compassion for yourself and others.
+This isn't about guilt or judgment. It's a mirror, designed to help you better understand your story and, hopefully, cultivate compassion for yourself and others.
 
 Use it in:
 - 🧠 Workshops or classrooms  
