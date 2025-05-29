@@ -96,7 +96,7 @@ export default function PrivilegeIndexApp() {
                 Aquí van algunas ideas para seguir reflexionando:
               </p>
               <ul>
-                <li>¿Qué harías si una persona no puede acceder a salud porque su documento de identidad no refleja su identidad?</li>
+                <li>¿Qué haría una persona que no puede acceder al servicio de salud porque su documento de identidad no refleja su identidad?</li>
                 <li>¿Cómo imaginas que se sienten quienes no pudieron elegir qué estudiar, o no han podido estudiar aún?</li>
                 <li>¿Cuáles de tus respuestas te sorprendieron más? ¿Qué historia hay detrás de ellas?</li>
               </ul>
