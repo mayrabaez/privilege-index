@@ -80,7 +80,7 @@ export default function PrivilegeIndexApp() {
       <button onClick={calculateScore} style={{ marginTop: "1rem" }}>Calcular mi puntaje</button>
       {score !== null && (
         <div style={{ marginTop: "2rem", fontWeight: "bold" }}>
-          Tu puntaje de privilegio: {score} / 9
+          Tu puntaje: {score} / 9
           <p style={{ fontWeight: "normal", fontSize: "0.9rem" }}>
             Este número es solo un punto de partida. No define quién eres ni lo que vales. <br /><br />
             Si tu puntaje es alto, piensa en cómo podrías usar lo que tienes para hacer que otras personas también accedan a lo que debería ser un derecho: educación, salud, seguridad, respeto, identidad. <br /><br />
