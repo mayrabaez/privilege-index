@@ -30,6 +30,10 @@ p {
 }
 
 /* Question Block */
+.question-block {
+  margin-bottom: 1.5rem;
+}
+
 label {
   display: block;
   font-size: 1.1rem;
@@ -119,10 +123,6 @@ button.selected-no {
   font-weight: 600;
   border: none;
   margin-top: 1.25rem;
-  padding: 0.6rem 1.2rem;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background-color 0.25s ease;
 }
 
 .accent-button:hover {
