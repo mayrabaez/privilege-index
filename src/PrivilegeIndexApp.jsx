@@ -37,17 +37,17 @@ export default function PrivilegeIndexApp() {
   };
 
   return (
-    <div style={{ padding: "2rem", maxWidth: "700px", margin: "0 auto" }}>
+    <div className="app-container">
       <h1>Explora tu punto de partida</h1>
       <p>
         Responde estas preguntas para reflexionar sobre tu punto de partida en la vida.<br /><br />
         Este índice es una herramienta para conocerte mejor. Te ayuda a ver con más claridad qué ventajas has tenido y qué obstáculos podrías estar enfrentando. A veces no notamos todo lo que influye en nuestras oportunidades: el lugar donde nacimos, nuestro cuerpo, el acceso a estudios o el idioma que hablamos.<br /><br />
         <strong>No hay respuestas correctas, solo honestidad contigo mismx.</strong>
       </p>
+
       {questions.map((q) => (
-        <div key={q.id} style={{ marginBottom: "1.5rem" }}>
+        <div key={q.id} className="question-block">
           <label>{q.label}</label>
-          <br />
           <button
             className={answers[q.id] === true ? "selected-yes" : ""}
             onClick={() => handleAnswer(q.id, true)}
@@ -62,7 +62,11 @@ export default function PrivilegeIndexApp() {
           </button>
         </div>
       ))}
-      <button onClick={calculateScore} style={{ marginTop: "1rem" }}>Calcular mi puntaje</button>
+
+      <button className="calculate-button" onClick={calculateScore}>
+        Calcular mi puntaje
+      </button>
+
       {score !== null && (
         <div className="results">
           <strong>Tu puntaje: {score} / 9</strong>
@@ -72,12 +76,11 @@ export default function PrivilegeIndexApp() {
             Si tu puntaje es bajo, no estás solx. Muchas personas viven barreras impuestas por el sistema, no por falta de esfuerzo.<br /><br />
             Todos tenemos historias distintas. ¿Qué parte de la tuya aún no habías visto como parte de este mapa? ¿Qué te gustaría transformar en tu entorno? ¿A quién podrías escuchar hoy con más empatía?
           </p>
-          <button
-            className="accent-button"
-            onClick={() => setShowMore(!showMore)}
-          >
+
+          <button className="accent-button" onClick={() => setShowMore(!showMore)}>
             {showMore ? "Ocultar" : "¿Y ahora qué?"}
           </button>
+
           {showMore && (
             <div className="reflection">
               <p><strong>Aquí van algunas ideas para seguir reflexionando:</strong></p>
@@ -92,8 +95,5 @@ export default function PrivilegeIndexApp() {
         </div>
       )}
     </div>
-  );
-}
-
   );
 }
